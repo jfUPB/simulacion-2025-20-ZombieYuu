@@ -35,5 +35,24 @@ Fue un poco dificil acer y entender algunas partes del código, y como mencioné
 Tendrá mas claro la interactividad del proyecto y los parámetros para que se visualizen en mi cabeza.
 
 ### Actividad 10
-###
+### Coevaluación 
+Evalué el trabajo de mi compañero David Vanegas Londoño, su propuesta es interesante y entretenida, opino que en la descripción de su producto pudo poner los conceptos que iba a utilizar en este, y la función de la bola azul no la entiendo.
+
+### Actividad 11: 
+### Feedback
+
+**1. Continuar: ¿Qué actividad, ejemplo o explicación de esta unidad te resultó más reveladora o útil para tu aprendizaje? ¿Qué deberíamos mantener sí o sí?**
+La actividad 5 fue divertida de hacer y me gustó el resultado, me parece interesante usar ese concepto de nuevo.
+
+**2. Dejar de hacer: ¿Hubo alguna actividad o concepto que te pareció redundante, confuso o menos útil? ¿Hay algo que eliminarías o cambiarías por completo?**
+En general todos los conceptos uy actividades me parecieron interesantes y significativas.
+
+**3. Empezar a hacer: ¿Qué te faltó en esta unidad? ¿Quizás más ejemplos de artistas, más desafíos técnicos, más teoría? ¿Qué idea tienes para hacerla mejor?**
+Me pareceri bien que hubieran mas ejemplos de los conceptos para entenderlos de manera mas facíl y didáctica.
+
+**4. Balance Teoría-Práctica: ¿Cómo sentiste el equilibrio entre analizar los ejemplos del texto guía y ponerte a programar tus propios sketches? Explica tu respuesta.**
+Fue un buen equilibrio, pues se pueden entender los conceptos de facil manera en la teoría y hace que sea mas facil la práctica.
+
+**5. Comentario Adicional: ¿Hay algo más que quieras compartir sobre tu experiencia en esta unidad?**
+En general me gusta la didáctica de las clases, me gusta ver los ejemplos en el televisor y escuchar las esplicaciones del profesor.
  
