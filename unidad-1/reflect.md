@@ -33,4 +33,7 @@ Fue un poco dificil acer y entender algunas partes del código, y como mencioné
 
 **4. Si tuvieras que empezar la Actividad 08 de nuevo, ¿Qué harías de manera diferente basándote en lo que sabes ahora?**
 Tendrá mas claro la interactividad del proyecto y los parámetros para que se visualizen en mi cabeza.
+
+### Actividad 10
+###
  
