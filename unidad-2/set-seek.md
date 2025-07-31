@@ -76,3 +76,63 @@ this.pos = createVector(width /  2, height / 2)
 
 ### Actividad 4: 
 
+
+### Actividad 5:
+
+**El código que genera el resultado que te pedí**
+
+```javascript
+let Interpolation = 0;
+let step = 0.01;
+
+
+function setup() {
+    createCanvas(300, 300);
+}
+
+function draw() {
+    background(200);
+  
+  Interpolation += step;
+  
+  if (Interpolation > 1 || Interpolation < 0){
+    step *= -1;
+    
+  }
+
+    let v0 = createVector(50, 50);
+    let v1 = createVector(200, 0);
+    let v2 = createVector(0, 200);
+    let v3 = p5.Vector.lerp(v1, v2, Interpolation);
+    let v4 = p5.Vector.sub(v2, v1)  
+    let Color = lerpColor( 'red',  'blue', Interpolation)
+    
+    
+    drawArrow(v0, v1, 'red');
+    drawArrow(v0, v2, 'blue');
+    drawArrow(v0, v3, Color);
+    drawArrow(p5.Vector.add(v0, v1), v4, 'green' )
+}
+
+function drawArrow(base, vec, myColor) {
+    push();
+    stroke(myColor);
+    strokeWeight(3);
+    fill(myColor);
+    translate(base.x, base.y);
+    line(0, 0, vec.x, vec.y);
+    rotate(vec.heading());
+    let arrowSize = 7;
+    translate(vec.mag() - arrowSize, 0);
+    triangle(0, arrowSize / 2, 0, -arrowSize / 2, arrowSize, 0);
+    pop();
+}
+```
+
+**¿Cómo funciona lerp() y lerpColor()?**
+
+- ``lerp()`` tiene la función de interpolar dos vectores y ``lerpColor()`` se encarga de interpolar dos colores dando el efecto de degradado
+
+**¿Cómo se dibuja una flecha usando drawArrow()?** 
+
+- Se coloca la direccion de inicio y el fin del vector, por ejemplo: `` drawArrow(v0, v1, 'red')``
