@@ -76,6 +76,34 @@ this.pos = createVector(width /  2, height / 2)
 
 ### Actividad 4: 
 
+**¿Para qué sirve el método mag()? Nota que hay otro método llamado magSq(). ¿Cuál es la diferencia entre ambos? ¿Cuál es más eficiente?** 
+
+-   El métodp ``mag() `` es para hayar la magnitud o longitud de un vector, mientras que  `` magSq()`` convierte no utiliza la raíz cuadrada al hayar la magnitud, siendo mas eficiente.
+
+**¿Para qué sirve el método normalize()?**
+
+- El método  `` normalize()`` sirve para convertir el vector en uno unitario, o sea convertir la magnitud en 1 si solo se nececita la dirección.
+
+**Te encuentras con un periodista en la calle y te pregunta ¿Para qué sirve el método dot()? ¿Qué le responderías en un frase?**
+
+-  `` dot()`` es para medir a donde apuntan dos vectores en la misma dirección.
+
+**El método dot() tiene una versión estática y una de instancia. ¿Cuál es la diferencia entre ambas?**
+
+- La versión estática se llama desde una clase y utiliza dos vectores como argumento y la versión de instancia llama fuera de una clase a un vector y se le pasa a otro.
+
+**Ahora el mismo periodista curioso de antes te pregunta si le puedes dar una intuición geométrica acerca del producto cruz. Entonces te pregunta ¿Cuál es la interpretación geométrica del producto cruz de dos vectores? Tu respuesta debe incluir qué pasa con la orientación y la magnitud del vector resultante.**
+
+- El producto cruz genera un nuevo vector perpendicular a los dos vectores originales, mientras que la orientación apunta hacia afuera de la superficie, del primer vector hacia el segundo, la magnitud representa el area que forman los dos vectores.
+
+**¿Para que te puede servir el método dist()?**
+
+- El método  `` dist()`` sirve para hayar la distancia entre dos vectores.
+
+**¿Para qué sirven los métodos normalize() y limit()?**
+
+- `` normalize()`` al convertir un vector a unitario sirve para mantener la dirección constante sin importar la fuerza,  `` limit()`` restringe la magnitud de un vector a un máximo que se elije y sirve para controlar la veklocidad máxima.
+
 
 ### Actividad 5:
 
@@ -136,3 +164,22 @@ function drawArrow(base, vec, myColor) {
 **¿Cómo se dibuja una flecha usando drawArrow()?** 
 
 - Se coloca la direccion de inicio y el fin del vector, por ejemplo: `` drawArrow(v0, v1, 'red')``
+
+  ### Actividad 6:
+
+**Cuál es el concepto del marco motion 101 y cómo se interpreta geométricamente.**
+
+-Es un concepto para simular el movimiento de un objeto, utilizando los conceptos de velocidad, aceleración y dirección.
+
+**¿Cómo se aplica motion 101 en el ejemplo?**
+
+- Se aplica creando un objeto con atributos: *position*, *velocity*, *aceleration*. 
+- Se aplica una aceleración.
+- Se actualiza la velocidad con dicha aceleración.
+- Se aplica la nueva velocidad a la posición.
+
+  ### Actividad 7:
+
+- **Aceleración constante:** El objeto aumenta la velocidad de manera constante en una sola dirección.
+- **Aceleración aleatoria:** El objeto acelera y pausa de manera aleatoria e impredecible, haciendolo moverse en varias direcciciones y con velocidades diferentes.
+- **Aceleración hacia el mouse:** El objeto mientras más lejos del mouse aumenta su aceleración para llegar a el.
