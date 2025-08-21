@@ -9,6 +9,16 @@ Mi obra consta de un cardumen de peces que se atraen ente  sí y son atraídos p
 
 En esta simulación se modeló el problema de n cuerpos usando una aproximación simplificada basada en física newtoniana. Cada pez actúa como un cuerpo con masa que ejerce una fuerza de atracción sobre los demás, similar a la gravedad. Además, el mouse representa un atractor dominante con gran masa, lo que genera un comportamiento colectivo interesante donde los cuerpos se agrupan y se sienten atraídos dinámicamente hacia él. El sistema visualiza cómo las interacciones múltiples influyen en el movimiento de cada elemento del conjunto.
 
+### Relación con las obras de Alexander Calder
+
+| *Elemento en Calder*            | *Cómo se refleja en tu obra generativa*                                                                                         |
+| --------------------------------| ------------------------------------------------------------------------------------------------------------------------------  |
+| *Movimiento orgánico*           | Los movers (peces) se desplazan en trayectorias fluidas y cambiantes gracias a las fuerzas de atracción.                        |
+| *Interacción con el espectador* | El mouse funciona como “corriente de aire” que reorganiza el movimiento, igual que la interacción del público con los móviles.  |
+| *Equilibrio dinámico*           | La atracción entre peces y hacia el mouse crea un sistema en constante ajuste, nunca estático pero siempre balanceado.          |
+| *Colores y formas abstractas*   | Los peces se representan con curvas, triángulos y colores vibrantes gaussianos, recordando la estética abstracta de Calder.     |
+| *Inspiración en la naturaleza*  | El cardumen digital simboliza un ecosistema vivo, paralelo a cómo Calder evocaba el cosmos o sistemas biológicos en sus móviles.|
+
 ### Copia el enlace a tu simulación en p5.js:
 https://editor.p5js.org/ZombieYuu/sketches/OUwVulQe-
 
@@ -118,3 +128,4 @@ class Mover {
 ### Captura una imagen representativa de tu ejemplo:
 
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/8532666e-c920-449e-8c33-79887adc2c21" />
+
