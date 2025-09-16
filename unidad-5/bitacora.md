@@ -9,9 +9,9 @@
 - La eliminación de partículas se elabora al "revés" pues se "matan" las partículas mas viejas.
 - La memoria se gestiona por medio de un ``array`` con el método de ``run`` lo que genera un loop en el ``arraylist`` y elimina las partículas muertas.
 
-  ### Fuego pirotécnico:
+  ### Obra generativa 1:
   - En la grstión de creación y desaparición de partículas, creo partículas nuevas, las dejo vivir un tiempo, y cuando mueren las borro de la lista para que no ocupen memoria.
-  - En la bace de *Array of particles* utilicé los conceptos de distribución no uniforme y el random para cambiar el color de las partículas con la tecla *c*. Generando así una simulación de juegos artificiales.
+  - En la base de *Array of particles* utilicé los conceptos de distribución no uniforme y el random de la unidad 1 para cambiar el color de las partículas con la tecla *c*. Generando así una simulación de juegos artificiales.
   - https://editor.p5js.org/ZombieYuu/sketches/kPezPX3sh
 
     <img width="898" height="773" alt="image" src="https://github.com/user-attachments/assets/79d31e31-45cd-4ffe-a50f-529ee683e796" />
@@ -23,11 +23,27 @@
 - Se matan las partículas mas viejas de cada sistema.
 - Se crea un ``array`` para cada sistema para eliminar las partículas muertas.
 
+  ### Obra generativa 2:
+  -La gestión de partículas es diferente, al inicio se crean las partículas normalmente, luego las viejas se guardan en ``pool``, y cuando necesito nuevas las reciclo de ahí y cuando hay demaciadas partículas no permito que se creen mas.
+  -Tomando como base *A system of systems* utilicé el concepto de los N Cuerpos de la unidad 3 y el random de la unidad 1 para crear la obra que sigue el mouse como punto gravitacional despues de ser generado.
+  - https://editor.p5js.org/ZombieYuu/sketches/AC5QhH7P1
+
+  <img width="907" height="717" alt="image" src="https://github.com/user-attachments/assets/1b96b5b9-bc6f-4b71-88a1-c4471ee8c835" />
+
+
 ### Ejemplo 4.5: a Particle System with Inheritance and Polymorphism
 
 - En este caso tenemos dor partículas diferentes, ``Particle`` y ``Confetti`` que estan en la misma clase ``this.particles.push``, lo que significa que existe un enparentamiento y polimorfismo.
 - Las dos distintas partículas se matan de igual forma.
 - Y Las dos partículas llegan a un mismo ``array`` y se elimina.
+
+  ### Obra generativa 3:
+  - Primero, las partículas nacen en el extremo del péndulo y van viviendo mientras caen y se van apagando poco a poco. Cuando su tiempo se acaba, las quito de la lista y desaparecen
+  - En base a * Particle System with Inheritance and Polymorphism* quise simular una cascada de hielos y gotas de aguas en un pendulo, concepto de la unidad 4 asi cuando el pendulo se mueve la cascada también.
+  - https://editor.p5js.org/ZombieYuu/sketches/GLoLgAnbG
+ 
+    <img width="863" height="595" alt="image" src="https://github.com/user-attachments/assets/0997af0c-5963-4871-ae0d-782937806d99" />
+
 
 ### Ejemplo 4.6:  a Particle System with Forces
 
@@ -40,6 +56,7 @@
 - La creación de partículas funciona de la misma forma que en los ejemplos anteriores.
 - La muerte de las partículas es igual.
 - Se agrega una nueva fuerza de repulción, no afecta a la gestión de memoria pero las partículas muertas se eliminan por medio de ``Particles.remove(i)``.
+
 
 
 
