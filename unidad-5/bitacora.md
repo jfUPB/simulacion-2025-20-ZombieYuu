@@ -51,11 +51,27 @@
 - Las particulas se matan de la misma manera.
 - Se aplican fuerzas como la gravedad, pero no afecta en la gestión de la memoria, así mismo se maneja de la misma forma que los ejemplos anteriores.
 
+  ### Obra generativa 4:
+  - La estructura de gestion de partículas es similar a la que ya hemos visto antes, se crea una partícula, despues muere y se borra de la lista.
+  - Con base en *a Particle System with Forces* utilicé el concepto de motion 101 de la unidad 2 y el random para tener diversos colores, con la letra C se borra la pantalla y con la R se agrega otra posición de emición.
+  - https://editor.p5js.org/ZombieYuu/sketches/TvuMniRMM
+ 
+    <img width="898" height="755" alt="image" src="https://github.com/user-attachments/assets/a1c800aa-56f0-4800-9e9c-291400a5e664" />
+
+
 ### Ejemplo 4.7: a Particle System with a Repeller
 
 - La creación de partículas funciona de la misma forma que en los ejemplos anteriores.
 - La muerte de las partículas es igual.
 - Se agrega una nueva fuerza de repulción, no afecta a la gestión de memoria pero las partículas muertas se eliminan por medio de ``Particles.remove(i)``.
+
+  ### Obra generativa 5:
+  - La gestión de partículas es igual que la anterior obra generativa, pero aquí la cantidad de partículas limita hasta 1020.
+  - En base a *a Particle System with a Repeller* utilicé conceptos como el ruido de perlin y la atracción gravitacional para crear la obra.
+  - https://editor.p5js.org/ZombieYuu/sketches/MfuVgbPxf
+ 
+    <img width="917" height="770" alt="image" src="https://github.com/user-attachments/assets/2e0491c3-2571-44ba-9b54-a9668350c3b8" />
+
 
 
 
